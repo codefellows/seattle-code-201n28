@@ -1,0 +1,34 @@
+div {
+    display: block;
+}
+
+span {
+    display: inline;
+    height: 100px;
+    width: 100px;
+}
+
+img {
+    display: inline-block;
+    height: 4rem;
+}
+
+#first-div {
+    background-color: aqua;
+    border: 1px solid red;
+    padding: .5rem;
+    margin: .5rem;
+    width: 6rem;
+}
+
+#first-span {
+    background-color: bisque;
+}
+
+#second-div {
+    background-color: aqua;
+    border: 1px solid green;
+    padding: .5rem;
+    margin: .5rem;
+    height: 5rem;
+}

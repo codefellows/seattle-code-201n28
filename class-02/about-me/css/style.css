@@ -1,0 +1,31 @@
+h1 {
+   font-size: 2rem;
+   color: chartreuse; 
+}
+
+body {
+    width: 70%;
+    margin: auto;
+    background-color: lightcoral;
+}
+
+main {
+    padding: 1rem;
+}
+
+ul {
+    list-style: disc inside;
+}
+
+ol {
+    list-style: decimal inside;
+}
+
+p {
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+footer {
+    text-align: center;
+}

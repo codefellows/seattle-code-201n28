@@ -1,5 +1,10 @@
 # Basics of HTML, CSS & JS
 
+## Start of Class repl
+1. [7-12-22 repl](https://replit.com/@AdamOwada/7-11-22-repl#index.js)
+1. [7-13-22 repl](https://replit.com/@AdamOwada/7-12-22-repl#index.js)
+1. [7-14-22 repl](https://replit.com/@AdamOwada/7-13-22-repl#index.js)
+
 ## Overview
 
 This class is focused on practice with JavaScript, an introduction to data types, conditionals, and arrays. We will also be learning about Git and Github at a much deeper level. Today's lab will require the creation of a new repo and using a very basic git workflow.

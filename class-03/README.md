@@ -1,5 +1,9 @@
 # HTML Lists, Control Flow with JS, and the CSS Box Model
 
+## Start of Class repl
+1. [7-16-22 repl](https://replit.com/@AdamOwada/7-16-22-repl#index.js)
+1. [7-18-22 repl](https://replit.com/@AdamOwada/7-18-22-repl#index.js)
+
 ## Overview
 
 This class is a highly conceptual. We will be diving deeper into **control flow**, **arrays**, and more about the CSS **box model** and basic page layout.

@@ -1,5 +1,9 @@
 # JS Functions, Pair Programming, and Intro to CSS Layout
 
+## Start of Class repl
+1. [7-19-22 repl](https://replit.com/@AdamOwada/7-19-22-repl#index.js)
+1. [7-20-22 repl](https://replit.com/@AdamOwada/7-20-22-repl#index.js)
+
 ## Overview
 
 In this class we will be learning about one of the fundamental building blocks in JavaScript: functions! We will also discuss and demonstrate pair programming, and CSS positioning.

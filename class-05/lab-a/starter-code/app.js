@@ -1,11 +1,31 @@
 'use strict';
 /////////////////////////////////////
+
+// Gameplan:
+// 1. Read Problem Domain CAREFULLY!!!!!!!!
+// 2. Write a visual example with given data
+//      ID input and output
+// 3. Describe algorithm in English
+// 4. Code
+// 5. run the test by uncommenting the line
+
 /* Problem 1 (this is your demo that we'll solve in class)
 Write a function called sum() that takes in two numbers as arguments and then returns an array where the first element is the sum of those numbers, and the second element is a concatenated string that EXACTLY follows this example and uses the values that were input into the function:
 
 "The sum of 4 and 7 is 11."
 
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
+
+// Visual:
+//
+// input: 4, 7
+// output: [11, "The sum of 4 and 7 is 11."]
+
+// Algorithm:
+// Declare a function called sum that takes in two numbers
+// assign sum of a and b to a variable twoSum
+// concatonate a string with a, b, and twoSum
+// return an array with twoSum first and the string second
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line

@@ -1,0 +1,20 @@
+h1 {
+  color: green;
+}
+
+body {
+  background-color: beige;
+  /* font-size: 5px; */
+}
+
+html {
+    font-size: 20px;
+}
+
+#coolCat {
+  /* width: 4rem; */
+  /* width: 100px; */
+  /* width: 100vh; */
+  width: 10rem;
+  /* height: 8rem; */
+}

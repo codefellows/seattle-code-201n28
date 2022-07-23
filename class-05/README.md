@@ -1,5 +1,8 @@
 # CSS for Images, Color, Text & Git Branching
 
+## Start of Class repl
+1. 7-23-22: None
+
 ## Overview
 
 In this class you will be closing out on the "About Me" quiz project. You will have two other lab assignments due that will help you with CSS and learning a new git workflow using branches.

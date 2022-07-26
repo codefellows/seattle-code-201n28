@@ -1,7 +1,9 @@
 # CSS for Images, Color, Text & Git Branching
 
 ## Start of Class repl
+
 1. 7-23-22: None
+1. 7-25-22: None
 
 ## Overview
 

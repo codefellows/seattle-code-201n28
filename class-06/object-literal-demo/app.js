@@ -1,6 +1,6 @@
 "use strict";
 
-// console.log('proof of life');
+console.log('proof of life');
 
 let frankie = {
   name: "frankie",
@@ -26,33 +26,33 @@ let tom = {
   },
 };
 
-// console.log(frankie);
-// console.log(frankie.name);
-// console.log(frankie['height']);
-// frankie.getHeight();
+console.log(frankie);
+console.log(frankie.name);
+console.log(frankie['height']);
+frankie.getHeight();
 
-// frankie.getSelf();
-// tom.getSelf();
+frankie.getSelf();
+tom.getSelf();
 
 function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min );
 }
 
 let random1 = getRandomNumber(5, 15);
-// console.log(random1);
-// console.log(Math.floor(Math.random() * 11 + 5));
+console.log(random1);
+console.log(Math.floor(Math.random() * 11 + 5));
 
 
 // assigning/reassigning a property in an object literal
 
-// console.log(frankie.name);
-// frankie.name = "Franklin";
-// console.log(frankie.name);
+console.log(frankie.name);
+frankie.name = "Franklin";
+console.log(frankie.name);
 
-// frankie.favFood = 'pizza';
-// console.log(frankie.favFood);
+frankie.favFood = 'pizza';
+console.log(frankie.favFood);
 
-// console.log(frankie);
+console.log(frankie);
 
 // assigning/reassigning a method
 

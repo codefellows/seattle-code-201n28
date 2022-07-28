@@ -2,6 +2,7 @@
 
 ## Start of Class repl
 1. [7-26-22 repl](https://replit.com/@AdamOwada/7-26-22-repl#index.js)
+1. [7-27-22 repl](https://replit.com/@AdamOwada/7-27-22-repl#index.js)
 
 ## Class Outline
 

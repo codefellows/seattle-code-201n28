@@ -1,5 +1,9 @@
 # Object-Oriented Programming with Constructor Functions: HTML Tables
 
+## Start of Class repl
+1. 7-30-22: None
+1. [8-1-22 repl](https://replit.com/@AdamOwada/8-1-22-repl#index.html)
+
 ## Overview 
 
 This class will introduce inheritance with constructor functions, plus adding another dimension to dynamic DOM rendering by creating a table instead of lists from stored array data.

@@ -1,0 +1,67 @@
+.container {
+  /* flex container properties */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  /* for visibility */
+  border: 1px solid red;
+
+  width: 70%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid blue;
+  margin: 1rem;
+  width: 100%;
+}
+
+img {
+  margin: 1rem;
+  border: 1px solid green;
+}
+
+.box {
+  /* default height and width for colored boxes */
+  height: 200px;
+  width: 200px;
+}
+
+#red-box {
+  background-color: red;
+  /* the red box grows at twice the rate of the blue box */
+  flex-grow: 2;
+}
+
+#blue-box {
+  background-color: blue;
+  flex-grow: 1;
+}
+
+#yellow-box {
+  background-color: yellow;
+}
+
+#purple-box {
+  background-color: purple;
+  /* when the width of the page shrinks, the purple box shrinks  */
+  flex-shrink: 2;
+}
+
+#black-box {
+  background-color: black;
+  /* the black box will shrink at a greater rate than purple */
+  flex-shrink: 3;
+}
+
+#green-box {
+  background-color: green;
+  /* the green box is the only box that "grows" in this row (stretches to take up remaining space) */
+  flex-grow: 1;
+}

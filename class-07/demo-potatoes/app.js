@@ -96,3 +96,25 @@ potato5.render();
 potato6.render();
 potato7.render();
 potato8.render();
+
+
+///////////////////////
+// New form code:
+///////////////////////
+
+// Step 3:
+let potatoForm = document.getElementById('potatoForm');
+potatoForm.addEventListener('submit', addPotato);
+
+// Step 4:
+function addPotato(event) {
+	event.preventDefault();
+	let form = event.target;
+	let variety = form.variety.value;
+	let color = form.color.value;
+	let expiration = form.expiration.value;
+	// console.log(variety, color, expiration);
+	let potato = new Potato(variety, color, expiration);
+	console.log(potato);
+	potato.render();
+}

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Potato Table</h1>
     <!-- <table>
         <thead>
@@ -42,17 +42,33 @@
         </tfoot>
     </table> -->
     <table>
-        <thead>
-            <tr>
-                <th>Variety</th>
-                <th>Color</th>
-                <th>Expiration</th>
-            </tr>
-        </thead>
-        <tbody id="table-body">
-
-        </tbody>
+      <thead>
+        <tr>
+          <th>Variety</th>
+          <th>Color</th>
+          <th>Expiration</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
     </table>
+
+    <!-- Step 1: Form -->
+    <form id="potatoForm">
+      <!-- Step 2: -->
+      <label>
+        Variety
+        <input type="text" name="variety" required />
+      </label>
+      <label>
+        Color
+        <input type="text" name="color" />
+      </label>
+      <label>
+        Expiration
+        <input type="number" name="expiration" min="1" max="5" />
+      </label>
+      <input type="submit" />
+    </form>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

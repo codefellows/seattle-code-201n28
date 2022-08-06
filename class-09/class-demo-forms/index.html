@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Step 1: Create Form Element - HTML -->
+    <form id="logForm">
+        <!-- Step 2: Create inputs - HTML -->
+        <!-- name == .property -->
+        <input type="text" name="userText" id=""/>
+        <input type="submit">
+    </form>
+
+
+
+    <br><br>
+    <form id="manyInputs">
+        <label>
+            Text for Input
+            <input type="text" name="" placeholder="What you want user to type"/>
+        </label>
+        <hr>
+        <label>
+            This is a button input
+            <input type="button" value="test" />
+        </label>
+        <hr>
+        <label>
+            Radio button: Option 1
+            <input type="radio" name="idk" value="option1"/>
+        </label>
+        <label>
+            Radio button: Option 2
+            <input type="radio" name="idk" value="option2"/>
+        </label>
+        <label>
+            Radio button: Option 3
+            <input type="radio" name="idk" value="option3"/>
+        </label>
+        <hr>
+        <label>
+            Number input
+            <input type="number"/>
+        </label>
+        <label>
+            Checkbox input?
+            <input type="checkbox" value="test" />
+        </label>
+        <hr>
+        <label>
+            Password input
+            <input type="password" value="test" />
+        </label>
+    </form>
+<br>
+<br>
+<br>
+    <!-- Step 1 -->
+    <form id="foodOrder">
+        <!-- Step 2 -->
+        <legend>Name for Order</legend>
+        <label>
+            Name:
+            <input type="text" name="name" />
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="radio" name="icecreamFlavor" value="chocolate" checked>
+            Chocolate
+        </label>
+        <label>
+            <input type="radio" name="icecreamFlavor" value="vanilla">
+            Vanilla
+        </label>
+        <br>
+        <br>
+        <legend>Seasoning?</legend>
+        <label>
+            <input type="checkbox" name="seasonings" value="cumin">
+            Add Cumin
+        </label>
+        <label>
+            <input type="checkbox" name="seasonings" value="salmon">
+            Add Salmon Seasoning
+        </label>
+        <br>
+        <br>
+        <legend>Instructions:</legend>
+        <textarea name="instructions" cols="30" rows="10"></textarea>
+        <input type="submit" />
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>

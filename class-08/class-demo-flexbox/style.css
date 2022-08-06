@@ -23,8 +23,13 @@
 }
 
 img {
-  margin: 1rem;
+  /* When an element is a flex item, the value of min-width doesn't compute to zero. The minimum size of a flex item is equal to the size of its contents */
+  height: 200px;
+  min-width: 0;
+  /* add border for visibility */
   border: 1px solid green;
+  /* 'flex' stands for flex-grow flex-shrink and flex-basis */
+  flex: 0 1 auto;
 }
 
 .box {
@@ -46,6 +51,8 @@ img {
 
 #yellow-box {
   background-color: yellow;
+  /* flex-basis: 400px; */
+  flex: 0 0 400px;
 }
 
 #purple-box {

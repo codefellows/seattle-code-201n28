@@ -32,7 +32,7 @@ CookieStand.prototype.randRate = function(){
     this.cookieSoldArray.push(Math.floor(this.aveCookies * (Math.random() * (this.maxCustomers - this.minCustomers + 1) + this.minCustomers)));
   };
   this.cookieSoldTotal = 0;
-  for(i in this.cookieSoldArray){
+  for(let i = 0; i < this.cookieSoldArray.length; i++){
     this.cookieSoldTotal += this.cookieSoldArray[i];
   }
   this.cookieSoldArray.push(this.cookieSoldTotal);
@@ -50,8 +50,8 @@ CookieStand.prototype.createHourlyRateTable = function(){
 
     this.tdEl.textContent = locCSArray[i];
     this.trEl.appendChild(this.tdEl);
-  
-};
+  };
+}
 
 let makeHeaderRow = function(){
   let hoursLocal = ['Store', '6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', 'Total'];
@@ -79,7 +79,7 @@ function renderTable(){
   CookieStand.standsTable.innerHTML = null;
   makeHeaderRow();
   for(let i in CookieStand.all){
-    CookieStand.all.i.createH0ourlyRateTable();
+    CookieStand.all[i].createHourlyRateTable();
   }
   sumColumns();
 }
@@ -141,6 +141,7 @@ let sumColumns = function(){
     trEl.appendChild(tdEl);
   };
 };
+
 sumColumns();
 
 //img carousel

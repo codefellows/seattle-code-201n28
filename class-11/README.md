@@ -1,5 +1,7 @@
 # Audio/Video, Practical Info, and Getting the Vote Tracker Started
 
+Repl from 8/15/22 for the .includes() code challenge: [link](https://replit.com/@AdamOwada/201n21-review-array-includes-1#index.js)
+
 ## Overview
 
 This class will be the start of a new project. You will also be learning a new CSS layout with flexbox.
